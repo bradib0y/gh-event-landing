@@ -1,0 +1,146 @@
+/* this may be for development only */
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(45deg, #252526, #3e3e40);
+}
+
+
+/* navbar */
+
+.bg-darkgold-imev {
+    background-color: #c4a24a7d;
+}
+
+.bg-darkgrey-footer-imev {
+    background-color: #3e3e40;
+}
+
+.navbar-imev a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+}
+
+.navbar-light-imev a {
+    color: #252526b8!important;
+}
+
+.navbar-dark-imev a {
+    color: #c4a24af8!important;
+}
+
+.nav-link {
+    padding-right: .85rem!important;
+    padding-left: .85rem!important;
+}
+
+
+/* regions */
+
+.region {
+    width: 100%;
+}
+
+#region-jumbo-imev {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("./img/woman-bg-black-spiral-gold.png");
+    /* for development: */
+    height: 80%;
+}
+
+
+/*  */
+
+#section-jumbo-header-imev {
+    display: grid;
+    grid-template-columns: 32% 68%;
+}
+
+#title-jumbo {
+    padding-top: 9.5rem;
+    padding-bottom: 1rem;
+}
+
+#title-jumbo>h1 {
+    color: #f7ce55d8!important;
+    font-family: 'Merriweather', serif;
+    font-size: 5.5rem;
+    font-weight: 700;
+}
+
+span.jumbo-title-glow {
+    font-size: 80px;
+    color: #f7ce55d8;
+    text-align: center;
+    -webkit-animation: glow 4s ease-in-out infinite;
+    -moz-animation: glow 4s ease-in-out infinite;
+    animation: glow 4s ease-in-out infinite;
+}
+
+@-webkit-keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #f7ce55d8, 0 0 20px #f7ce55d8, 0 0 60px #f7ce55a8, 0 0 70px #f7ce55a8;
+    }
+    25% {
+        text-shadow: 0 0 15px #f7ce55d8, 0 0 25px #f7ce55d8, 0 0 70px #f7ce55e8, 0 0 80px #f7ce55f8;
+    }
+    50% {
+        text-shadow: 0 0 10px #f7ce55d8, 0 0 20px #f7ce55d8, 0 0 60px #f7ce55a8, 0 0 70px #f7ce55a8;
+    }
+    100% {
+        text-shadow: 0 0 10px #f7ce55d8, 0 0 20px #f7ce55d8, 0 0 60px #f7ce55a8, 0 0 70px #f7ce55a8;
+    }
+}
+
+#band-gold {
+    background-color: #f7ce55aa;
+    display: flex;
+    justify-content: center;
+}
+
+#band-gold>h2 {
+    margin: auto;
+    padding: .8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.33rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+}
+
+#section-jumbo-description-imev {
+    display: grid;
+    grid-template-columns: 32% 68%;
+}
+
+#description-jumbo {
+    padding-top: 1rem;
+}
+
+#description-jumbo>p {
+    color: #c2c2c6!important;
+    font-family: 'Merriweather', serif;
+    font-size: 1.375rem;
+    font-weight: 400;
+}
+
+#region-footer-imev {
+    height: 22%;
+}
+
+.socials {
+    font-size: 27px!important;
+    padding-right: 1.2rem;
+}
